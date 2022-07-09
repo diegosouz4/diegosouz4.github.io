@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neoway | Uma empresa B3</title>
+
+    <meta property="og:description" content="A Neoway desenvolve soluções de Big Data Analytics e Inteligência Artificial que geram precisão para tomada de decisão e produtividade para seus processos.">
+    <meta property="og:title" content="Neoway | Uma empresa B3">
+    <meta name="twitter:description" content="A Neoway desenvolve soluções de Big Data Analytics e Inteligência Artificial que geram precisão para tomada de decisão e produtividade para seus processos.">
+    <meta name="twitter:title" content="Neoway | Uma empresa B3">
+    <meta name="description" content="A Neoway desenvolve soluções de Big Data Analytics e Inteligência Artificial que geram precisão para tomada de decisão e produtividade para seus processos.">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container--wide">
+        <div class="header__content">
+          <a href="#" class="header__logo"><img width="140" height="70" src="./assets/img/logo_neoway_b3.png" alt="Logo Neoway"/></a>
+          <h1 class="header__title">Lidere o futuro com<br class="desktop--only" /> inteligência de <span class="title__featured"></span></h1>
+          <p>Transformamos dados em <strong>soluções de valor</strong> para potencializar seus resultados de <strong>vendas</strong> e <strong>marketing</strong></p>
+        </div>
+        
+        <form class="header__form">
+          <h2 class="form__title">Entre em contato</h2>
+          <fieldset class="form__field">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Pedro Alves" required />
+          </fieldset>
+
+          <fieldset class="form__field">
+            <label for="lastname">Sobrenome</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Farias" required />
+          </fieldset>
+
+          <fieldset class="form__field">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="pedro.alves@corp.com" required />
+          </fieldset>
+
+          <fieldset class="form__field">
+            <label for="cnpj">CNPJ</label>
+            <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ da empresa" required />
+          </fieldset>
+
+          <fieldset class="form__field field--agree">
+            <label for="privacy">Eu concordo com as disposições do <a href="#" title="aviso de Privacidade">aviso de Privacidade.</a></label>
+            <input id="privacy" name="privacy" type="checkbox" required />
+          </fieldset>
+
+          <fieldset class="form__field field--agree">
+            <label for="educational">Eu aceito receber da Neoway informações de caráter educativo sobre as soluções e produtos.</label>
+            <input id="educational" name="educational" type="checkbox" required />
+          </fieldset>
+
+          <fieldset class="form__field field--agree">
+            <label for="marketing" >Eu aceito receber da Neoway informações de caráter publicitário  sobre as soluções e produtos.</label>
+            <input id="marketing" name="marketing" type="checkbox" required />
+          </fieldset>
+
+          <button class="btn btn--main">Fale com a gente</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="cases" aria-label="Empresas parceiras">
+      <div class="container container--wide">
+        <h2 class="cases__title">Empresas que mudaram suas vendas com a Neoway</h2>
+
+        <ul class="cases__list">
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira"/>
+          </li>
+
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira"/>
+          </li>
+
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira" />
+          </li>
+          
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira" />
+          </li>
+
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira" />
+          </li>
+
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira" />
+          </li>
+
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira" />
+          </li>
+
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira" />
+          </li>
+
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira" />
+          </li>
+
+          <li class="cases__item">
+            <img width="122" height="68" src="./assets/img/logo.PNG" alt="Empresa parceira" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="services" aria-label="Como podemos te ajudar">
+      <div class="container">
+        <h2 class="services__title"> Como podemos ajudar a melhorar seu <br class="desktop--only" />processo de vendas:</h2>
+
+        <nav class="services__nav">
+          <button data-tab="prospeccao" class="btn btn--tab">Prospecção</button>
+          <button data-tab="inteligencia" class="btn btn--tab">Inteligência de Mercado</button>
+        </nav>
+
+        <ul data-accordion class="services__list">
+          <li data-content="prospeccao" class="list__item">
+            <h3 class="list__title">Prospecção</h3>
+            <p>Use a inteligência de dados a seu favor para aumentar a geração de leads e priorizar os que são mais aderentes ao seu negócio, além de identificar novas empresas com perfis semelhantes aos seus melhores clientes para vender mais.</p>
+
+            <dl class="list__accordion">
+              <dt class="accordion__title"><button class="btn btn--accordion">Prospecçao Outbound B2B</button></dt>
+              <dd class="accordion__content">
+                <ul class="content__list">
+                  <li class="content__item">
+                    <h4 class="item__title">Potencial de mercado</h4>
+                    <p>Revelamos o seu real potencial de mercado (TAM,SAM,SOM), identificando novas oportunidades para atuação do seu time de vendas.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+
+                  <li class="content__item">
+                    <h4 class="item__title">Captação de leads</h4>
+                    <p>Buscamos os contatos e a localização de leads com perfis aderentes ao seu negócio.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+
+                  <li class="content__item">
+                    <h4 class="item__title">Priorização de leads</h4>
+                    <p>Recomendamos e priorizamos os leads mais semelhantes aos perfis dos seus melhores clientes, aumentando sua chance de fechar novos negócios.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+
+                  <li class="content__item">
+                    <h4 class="item__title">Segmentação de base</h4>
+                    <p>Disponibilizamos informações detalhadas sobre potenciais clientes para uma segmentação mais inteligente. Assim, é possível separar consumidores em diferentes grupos de acordo com uma série de variáveis, que vão desde hábitos de consumo a dados demográficos.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+
+                  <li class="content__item">
+                    <h4 class="item__title">Enriquecimento de CRM</h4>
+                    <p>Integramos a plataforma Neoway diretamente com seu site ou sistema de preferência, para que você receba os dados que vão enriquecer o seu CRM onde for mais conveniente</p>
+                    <div class="item__thumb"></div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </li>
+
+          <li data-content="inteligencia" class="list__item">
+            <h3 class="list__title">Inteligência de Mercado</h3>
+            <p>Acesse dados e informações chave para enriquecer seu CRM, construir estratégias de expansão e mapear novas oportunidades antes dos seus concorrentes.</p>
+
+            <dl class="list__accordion">
+              <dt class="accordion__title"><button class="btn btn--accordion">Expansão de mercado</button></dt>
+              <dd class="accordion__content">
+                <ul class="content__list">
+                  <li class="content__item">
+                    <h4 class="item__title">Mapeamento de concorrência</h4>
+                    <p>Ajudamos sua empresa a ter mais visibilidade da concorrência e market share.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+
+                  <li class="content__item">
+                    <h4 class="item__title">Análise de persona e ICP</h4>
+                    <p>Promovemos o acesso a dados para análise de personas, além de identificar o perfil de cliente ideal do seu produto ou serviço.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+
+                  <li class="content__item">
+                    <h4 class="item__title">Planejamento de expansão</h4>
+                    <p>Geramos insights para criação de estratégias de expansão, analisamos sua rentabilidade e as necessidades do mercado de atuação.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+
+                  <li class="content__item">
+                    <h4 class="item__title">Mapeamento de região</h4>
+                    <p>Trazemos identificadores de potencial de performance de novas operações para aumentar a eficiência do seu processo de expansão física.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl class="list__accordion">
+              <dt class="accordion__title">
+                <button class="btn btn--accordion">Automações de atendimento</button>
+              </dt>
+              <dd class="accordion__content">
+                <ul class="content__list">
+                  <li class="content__item">
+                    <h4 class="item__title">Atendimento e cadastro</h4>
+                    <p>Fazemos a identificação e preenchimento de cadastro de clientes proporcionando ainda atendimento via chatbot.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+
+                  <li class="content__item">
+                    <h4 class="item__title">Suporte</h4>
+                    <p>Fazemos automação do processo de suporte com SAC de dúvidas e direcionamento do cliente.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl class="list__accordion">
+              <dt class="accordion__title"><button class="btn btn--accordion">Segmentação</button></dt>
+              <dd class="accordion__content">
+                <ul class="content__list">
+                  <li class="content__item">
+                    <h4 class="item__title">Direcionamento e priorização</h4>
+                    <p>Ajudamos a realizar ofertas mais direcionadas para o seu público de interesse. Tenha mais precisão na sua estratégia de vendas falando com quem tem mais propensão a adquirir seus produtos.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+
+                  <li class="content__item">
+                    <h4 class="item__title">Impulsionamento</h4>
+                    <p>Fazemos o impulsionamento das suas campanhas de marketing e comunicação com direcionamento estratégico do seu segmento.</p>
+                    <div class="item__thumb"></div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl class="list__accordion">
+              <dt class="accordion__title">
+                <button class="btn btn--accordion">
+                  Enriquecimento de dados
+                </button>
+              </dt>
+              <dd class="accordion__content">
+                <ul class="content__list">
+                  <li class="content__item">
+                    <p>Ajudamos sua empresa a encontrar milhões de dados de pessoas e organizações de todo o país para enriquecer seu CRM</p>
+                    <div class="item__thumb"></div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="testimonies">
+      <div class="container">
+        <h2 class="testimonies__title">Depoimentos de quem já lidera o futuro</h2>
+
+        <div data-testimonies="wrap" class="testimonies__wrap">
+          <ul data-testimonies="list" class="testimonies__list">
+            <li data-testimonies="item" class="testimonies__item">
+              <div class="testimonies__card">
+                <p class="testimonies__quotes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat odio aperiam temporibus dolore placeat sapiente voluptatum esse porro tenetur!</p>
+                <img class="testimonies__thumb" width="40" height="40" src="./assets/img/perfil_2.png" alt="foto mulher">
+                <div class="testimonies__info">
+                  <h3 class="testimonies__name">Anna da silva</h3>
+                  <h4 class="testimonies__company">B3</h4>
+                </div>
+              </div>
+            </li>
+  
+            <li data-testimonies="item" class="testimonies__item">
+              <div class="testimonies__card">
+                <p class="testimonies__quotes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat odio aperiam temporibus dolore placeat sapiente voluptatum esse porro tenetur!</p>
+                <img class="testimonies__thumb" width="40" height="40" src="./assets/img/perfil_1.png" alt="foto mulher">
+                <div class="testimonies__info">
+                  <h3 class="testimonies__name">Thiano Reis</h3>
+                  <h4 class="testimonies__company">Banco inter</h4>
+                </div>
+              </div>
+            </li>
+            
+            <li data-testimonies="item" class="testimonies__item">
+              <div class="testimonies__card">
+                <p class="testimonies__quotes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat odio aperiam temporibus dolore placeat sapiente voluptatum esse porro tenetur!</p>
+                <img class="testimonies__thumb" width="40" height="40" src="./assets/img/perfil_2.png" alt="foto mulher">
+                <div class="testimonies__info">
+                  <h3 class="testimonies__name">Anna da silva</h3>
+                  <h4 class="testimonies__company">B3</h4>
+                </div>
+              </div>
+            </li>
+  
+            <li data-testimonies="item" class="testimonies__item">
+              <div class="testimonies__card">
+                <p class="testimonies__quotes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat odio aperiam temporibus dolore placeat sapiente voluptatum esse porro tenetur!</p>
+                <img class="testimonies__thumb" width="40" height="40" src="./assets/img/perfil_1.png" alt="foto mulher">
+                <div class="testimonies__info">
+                  <h3 class="testimonies__name">Thiano Reis</h3>
+                  <h4 class="testimonies__company">Banco inter</h4>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div data-testimonies="dots" class="testimonies__dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" aria-label="Fale com a gente">
+      <div class="container">
+        <div class="contact__content">
+          <h2 class="contact__title">Alta performance para competir.<br class="desktop--only" /> Inteligência de dados para liderar
+          </h2>
+          <p>Conte com a maior especialista em inteligência de dados para negócios B2B e supere suas metas para 2022</p>
+        </div>
+        <a href="#" class="btn btn--main">Fale com a gente</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container container--wide">
+        <a href="#" class="footer__logo"><img width="260" height="65" src="./assets/img/logo_neoway.png" alt="logo neoway"/></a>
+
+        <div class="footer__social">
+          <p>Nos siga também nas redes sociais!</p>
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="#" target="_blank" title="facebook da Neoway"><img width="48" height="48" src="./assets/img/facebook.png" alt="facebook da Neoway"/></a>
+            </li>
+            <li class="social__item">
+              <a href="#" target="_blank" title="linkedin da Neoway"><img width="48" height="48" src="./assets/img/linkedin.png" alt="linkedin da Neoway"/></a>
+            </li>
+            <li class="social__item">
+              <a href="#" target="_blank" title="instagram da Neoway"><img width="48" height="48" src="./assets/img/insta.png" alt="instagram da Neoway"/></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./assets/js/script.js"></script>
+  </body>
+</html>
